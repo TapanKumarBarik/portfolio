@@ -1,0 +1,98 @@
+// data/projects.js
+export const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform Revolution",
+    description:
+      "A next-generation e-commerce platform built with React, Node.js, and AI-powered recommendations.",
+    tech: ["React", "Node.js", "PostgreSQL", "Redis", "AI/ML"],
+    image: "🛍️",
+    status: "Live",
+    featured: true,
+    category: "Full Stack",
+    demoUrl: "https://demo.example.com",
+    githubUrl: "https://github.com/TapanKumarBarik/ecommerce",
+    highlights: ["99.9% Uptime", "50K+ Users", "AI Recommendations"],
+    metrics: {
+      users: "50K+",
+      uptime: "99.9%",
+      performance: "A+",
+    },
+  },
+  {
+    id: 2,
+    title: "Real-time Analytics Dashboard",
+    description:
+      "Interactive dashboard for real-time data visualization with WebSocket integration.",
+    tech: ["React", "D3.js", "WebSocket", "Express"],
+    image: "📊",
+    status: "Live",
+    featured: true,
+    category: "Data Visualization",
+    demoUrl: "https://analytics.example.com",
+    githubUrl: "https://github.com/TapanKumarBarik/analytics",
+    highlights: ["Real-time Updates", "Interactive Charts", "Custom Metrics"],
+    metrics: {
+      dataPoints: "1M+",
+      updateRate: "Real-time",
+      accuracy: "99%",
+    },
+  },
+  {
+    id: 3,
+    title: "Open Source Design System",
+    description:
+      "Comprehensive design system with 50+ components, used by 100+ developers.",
+    tech: ["React", "Storybook", "TypeScript", "Sass"],
+    image: "🎨",
+    status: "Open Source",
+    featured: true,
+    category: "Design System",
+    demoUrl: "https://design-system.example.com",
+    githubUrl: "https://github.com/TapanKumarBarik/design-system",
+    highlights: ["100+ Stars", "50+ Components", "TypeScript"],
+    metrics: {
+      stars: "100+",
+      components: "50+",
+      downloads: "10K+",
+    },
+  },
+  {
+    id: 4,
+    title: "AI-Powered Task Manager",
+    description:
+      "Smart task management app with AI suggestions and natural language processing.",
+    tech: ["React Native", "Python", "TensorFlow", "FastAPI"],
+    image: "🤖",
+    status: "In Development",
+    featured: false,
+    category: "Mobile AI",
+    demoUrl: null,
+    githubUrl: "https://github.com/TapanKumarBarik/ai-tasks",
+    highlights: ["AI Suggestions", "Cross-platform", "Voice Commands"],
+    metrics: {
+      accuracy: "92%",
+      languages: "5+",
+      users: "Beta",
+    },
+  },
+  {
+    id: 5,
+    title: "Blockchain Voting System",
+    description:
+      "Secure, transparent voting platform built on Ethereum blockchain.",
+    tech: ["Solidity", "Web3.js", "React", "IPFS"],
+    image: "🗳️",
+    status: "Prototype",
+    featured: false,
+    category: "Blockchain",
+    demoUrl: "https://voting.example.com",
+    githubUrl: "https://github.com/TapanKumarBarik/blockchain-voting",
+    highlights: ["Decentralized", "Transparent", "Secure"],
+    metrics: {
+      security: "Military Grade",
+      transparency: "100%",
+      cost: "Low Gas",
+    },
+  },
+];

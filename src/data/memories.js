@@ -1,0 +1,48 @@
+// data/memories.js
+export const memories = [
+  {
+    id: 1,
+    title: "First Open Source Contribution 🌱",
+    description:
+      "Made my first meaningful contribution to a major open source project",
+    date: "March 2022",
+    image: "🌱",
+    category: "Milestone",
+    color: "from-green-400 to-emerald-500",
+    emotion: "excited",
+    impact: "Started my open source journey",
+  },
+  {
+    id: 2,
+    title: "Hackathon Victory 🏆",
+    description: "Won my first hackathon with an AI-powered productivity app",
+    date: "July 2023",
+    image: "🏆",
+    category: "Achievement",
+    color: "from-yellow-400 to-orange-500",
+    emotion: "proud",
+    impact: "Validated my problem-solving skills",
+  },
+  {
+    id: 3,
+    title: "Tech Talk Debut 🎤",
+    description: "Gave my first tech talk at a local developer meetup",
+    date: "September 2023",
+    image: "🎤",
+    category: "Speaking",
+    color: "from-purple-400 to-pink-500",
+    emotion: "nervous but excited",
+    impact: "Started my speaking journey",
+  },
+  {
+    id: 4,
+    title: "1000 GitHub Stars ⭐",
+    description: "Reached 1000 stars across all my open source projects",
+    date: "February 2024",
+    image: "⭐",
+    category: "Coding",
+    color: "from-blue-400 to-indigo-500",
+    emotion: "grateful",
+    impact: "Community recognition",
+  },
+];
